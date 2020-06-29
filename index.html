@@ -269,9 +269,62 @@
       <!-- /.container -->
     </section>
     <!-- /.news -->
+    <div class="modal" data-modal>
+      <div class="modal-content">
+        <div class="header-modal">
+          <div class="modal-title">
+            <h3>Для регистрации заполните поля</h3>
+          </div>
+        </div>
+        <div class="modal-body">
+          <form action="#">
+            <input
+              type="email"
+              class="modal-email"
+              placeholder="Введите email"
+            />
+            <input
+              type="password"
+              class="modal-password"
+              placeholder="Введите пароль"
+            />
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="modal-btn registration">Регистрация</button>
+        </div>
+      </div>
+    </div>
+    <div class="modal" data-modal>
+      <div class="modal-content">
+        <div class="header-modal">
+          <div class="modal-title">
+            <h3>Для входа заполните поля</h3>
+          </div>
+        </div>
+        <div class="modal-body">
+          <form action="#">
+            <input
+              type="text"
+              class="modal-email"
+              placeholder="Введите ваш login"
+            />
+            <input
+              type="password"
+              class="modal-password"
+              placeholder="Введите пароль"
+            />
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="modal-btn registration">Вход</button>
+        </div>
+      </div>
+    </div>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/swiper.min.js"></script>
+    <script src="./js/modals.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
