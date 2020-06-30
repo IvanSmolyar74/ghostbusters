@@ -264,6 +264,7 @@ body {
   line-height: 28px;
   color: #a5a5a5;
   margin-right: 30px;
+  cursor: pointer;
 }
 
 .section-title.active {
@@ -285,7 +286,9 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-
+.tab_creaters {
+  display: none;
+}
 .card-image {
   width: 100px;
   height: 100px;

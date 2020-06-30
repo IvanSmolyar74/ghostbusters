@@ -44,8 +44,8 @@ const modals = () => {
     return scrollWidth;
   }
 
-  bindModal(".sign-up", ".modal");
-  bindModal(".login", ".modal");
+  bindModal(".sign-up", ".modal-reg");
+  bindModal(".login", ".modal-log");
 };
 
 modals();
